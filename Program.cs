@@ -19,11 +19,10 @@ else
     while (linha <= altura)
     {
         Console.WriteLine();
-
         coluna = 1;
+        
         while (coluna <= largura)
         {
-
             if (linha == 1 || linha == altura)
             {
                 Console.Write("*");
@@ -39,10 +38,8 @@ else
                     Console.Write(" ");
                 }
             }
-
             coluna += 1;
         }
-
         linha += 1;
     }
 }
